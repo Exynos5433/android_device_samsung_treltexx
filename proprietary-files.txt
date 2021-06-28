@@ -1,0 +1,10 @@
+# All unpinned blobs are from N910CXXS2DRL1
+# Vendor security patch level 2017-08-01
+
+# RIL
+lib/libsec-ril.so|e9850cf8fd68a38ab632a77480d33a7bc9ed0044
+
+# NFC
+etc/sec_s3fwrn5_rfreg.bin:vendor/etc/nfc/sec_s3fwrn5_rfreg.bin
+vendor/firmware/sec_s3fwrn5_firmware.bin
+
