@@ -7,7 +7,7 @@
 /dev/block/platform/15540000.dwmmc0/by-name/SYSTEM	/system	ext4	ro,errors=panic,noload,block_validity										                wait
 /dev/block/platform/15540000.dwmmc0/by-name/EFS		/efs	ext4	nosuid,nodev,noatime,noauto_da_alloc,discard,journal_async_commit,data=ordered,errors=panic	wait,check
 /dev/block/platform/15540000.dwmmc0/by-name/CACHE	/cache	ext4	noatime,nosuid,nodev,discard,noauto_da_alloc,journal_async_commit,errors=panic	            wait,check
-/dev/block/platform/15540000.dwmmc0/by-name/USERDATA	/data	ext4	noatime,nosuid,nodev,discard,noauto_da_alloc,journal_async_commit,errors=panic			wait,check,encryptable=footer
+/dev/block/platform/15540000.dwmmc0/by-name/USERDATA	/data	ext4	noatime,nosuid,nodev,discard,noauto_da_alloc,journal_async_commit,errors=panic			wait,check,encryptable=footer,length=-20480
 
 # VOLD
 /dev/block/platform/15540000.dwmmc0/by-name/HIDDEN		/preload		ext4		default		voldmanaged=preload:auto
